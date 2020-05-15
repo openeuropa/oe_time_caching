@@ -1,0 +1,3 @@
+services:
+  oe_time_caching.time_based_cache_tag_generator:
+    class: Drupal\oe_time_caching\Cache\TimeBasedCacheTagGenerator
