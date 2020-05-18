@@ -1,0 +1,6 @@
+name: OpenEuropa Time Caching
+description: OpenEuropa Time Caching provides time-based cache tags and invalidation.
+package: OpenEuropa
+
+type: module
+core: 8.x

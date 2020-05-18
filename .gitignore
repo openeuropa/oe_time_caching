@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.editorconfig
+behat.yml
+build
+composer.lock
+docker-compose.*.yml
+grumphp.yml
+package-lock.json
+phpunit.xml
+runner.yml
+vendor
+yarn.lock
