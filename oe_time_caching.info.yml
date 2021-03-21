@@ -3,5 +3,4 @@ description: OpenEuropa Time Caching provides time-based cache tags and invalida
 package: OpenEuropa
 
 type: module
-core: 8.x
 core_version_requirement: ^8 || ^9
