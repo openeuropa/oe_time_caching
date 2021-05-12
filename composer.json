@@ -16,7 +16,6 @@
         "drupal/config_devel": "^1.8",
         "drupal/drupal-extension": "~4.0",
         "drush/drush": "~10.3",
-        "guzzlehttp/guzzle": "~6.3",
         "openeuropa/code-review": "~1.6",
         "openeuropa/drupal-core-require-dev": "^8.9 || ^9",
         "openeuropa/task-runner-drupal-project-symlink": "^1.0",
