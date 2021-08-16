@@ -1,8 +1,23 @@
 # Change Log
 
+## [1.1.0](https://github.com/openeuropa/oe_time_caching/tree/1.1.0) (2021-08-12)
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.0.0...1.1.0)
+
+**Closed issues:**
+
+- Drupal 9 support [\#6](https://github.com/openeuropa/oe_time_caching/issues/6)
+
+**Merged pull requests:**
+
+- EWPP-930: Drupal 9 compatibility fixes. [\#8](https://github.com/openeuropa/oe_time_caching/pull/8) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-721: Update xdebug configuration. [\#5](https://github.com/openeuropa/oe_time_caching/pull/5) ([22Alexandra](https://github.com/22Alexandra))
+- EWPP-529: Replace scaffold library. [\#4](https://github.com/openeuropa/oe_time_caching/pull/4) ([sergepavle](https://github.com/sergepavle))
+- EWPP-516: Update docker images. [\#3](https://github.com/openeuropa/oe_time_caching/pull/3) ([22Alexandra](https://github.com/22Alexandra))
+
 ## [1.0.0](https://github.com/openeuropa/oe_time_caching/tree/1.0.0) (2020-05-18)
 **Merged pull requests:**
 
+- OPENEUROPA-0000: Release 1.0.0. [\#2](https://github.com/openeuropa/oe_time_caching/pull/2) ([22Alexandra](https://github.com/22Alexandra))
 - OPENEUROPA-3212: Create the time-based cache tags service [\#1](https://github.com/openeuropa/oe_time_caching/pull/1) ([22Alexandra](https://github.com/22Alexandra))
 
 
