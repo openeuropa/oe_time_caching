@@ -16,34 +16,50 @@ class TimeBasedCacheTagGeneratorTest extends UnitTestCase {
    * Test the generation a list of tags.
    */
   public function testGenerateTags() {
-    $date = \DateTime::createFromFormat('Y-m-d H:i:s', '2020-02-15 12:35:13');
-    $this->assertEquals([
+    // Tags are based on the time in UTC timezone.
+    $expected = [
       'oe_time_caching_date:2020',
       'oe_time_caching_date:2020-02',
       'oe_time_caching_date:2020-02-15',
-      'oe_time_caching_date:2020-02-15-12',
-    ], (new TimeBasedCacheTagGenerator())->generateTags($date));
+      'oe_time_caching_date:2020-02-15-01',
+    ];
+
+    // Australia/Sydney timezone is used by default in tests.
+    $date = \DateTime::createFromFormat('Y-m-d H:i:s', '2020-02-15 12:35:13');
+    $this->assertEquals($expected, (new TimeBasedCacheTagGenerator())->generateTags($date));
+
+    // Assert tags for date in the America/New_York timezone.
+    $date->setTimezone(new \DateTimeZone('America/New_York'));
+    $this->assertEquals($expected, (new TimeBasedCacheTagGenerator())->generateTags($date));
   }
 
   /**
    * Test the generation a list of tags, up until midnight.
    */
   public function testGenerateTagsUntilMidnight() {
-    $date = \DateTime::createFromFormat('Y-m-d H:i:s', '2020-02-15 12:35:13');
-    $this->assertEquals([
+    // Tags are based on the time in UTC timezone.
+    $expected = [
       'oe_time_caching_date:2020',
       'oe_time_caching_date:2020-02',
       'oe_time_caching_date:2020-02-15',
       'oe_time_caching_date:2020-02-15-00',
-    ], (new TimeBasedCacheTagGenerator())->generateTagsUntilMidnight($date));
+    ];
+
+    // Date in Australia/Sydney timezone.
+    $date = \DateTime::createFromFormat('Y-m-d H:i:s', '2020-02-15 12:35:13');
+    $this->assertEquals($expected, (new TimeBasedCacheTagGenerator())->generateTagsUntilMidnight($date));
+
+    // Assert tags for date in the America/New_York timezone.
+    $date->setTimezone(new \DateTimeZone('America/New_York'));
+    $this->assertEquals($expected, (new TimeBasedCacheTagGenerator())->generateTagsUntilMidnight($date));
   }
 
   /**
    * Test the generation of a list invalidating tags.
    */
   public function testGenerateInvalidatingTags() {
-    $date = \DateTime::createFromFormat('Y-m-d H:i:s', '2020-02-15 12:35:13');
-    $this->assertEquals([
+    // Tags are based on the time in UTC timezone.
+    $expected = [
       'oe_time_caching_date:2015',
       'oe_time_caching_date:2016',
       'oe_time_caching_date:2017',
@@ -66,18 +82,15 @@ class TimeBasedCacheTagGeneratorTest extends UnitTestCase {
       'oe_time_caching_date:2020-02-14',
       'oe_time_caching_date:2020-02-15-00',
       'oe_time_caching_date:2020-02-15-01',
-      'oe_time_caching_date:2020-02-15-02',
-      'oe_time_caching_date:2020-02-15-03',
-      'oe_time_caching_date:2020-02-15-04',
-      'oe_time_caching_date:2020-02-15-05',
-      'oe_time_caching_date:2020-02-15-06',
-      'oe_time_caching_date:2020-02-15-07',
-      'oe_time_caching_date:2020-02-15-08',
-      'oe_time_caching_date:2020-02-15-09',
-      'oe_time_caching_date:2020-02-15-10',
-      'oe_time_caching_date:2020-02-15-11',
-      'oe_time_caching_date:2020-02-15-12',
-    ], (new TimeBasedCacheTagGenerator())->generateInvalidatingTags($date));
+    ];
+
+    // Date in Australia/Sydney timezone.
+    $date = \DateTime::createFromFormat('Y-m-d H:i:s', '2020-02-15 12:35:13');
+    $this->assertEquals($expected, (new TimeBasedCacheTagGenerator())->generateInvalidatingTags($date));
+
+    // Assert tags for date in the America/New_York timezone.
+    $date->setTimezone(new \DateTimeZone('America/New_York'));
+    $this->assertEquals($expected, (new TimeBasedCacheTagGenerator())->generateInvalidatingTags($date));
   }
 
 }

@@ -37,9 +37,25 @@ class TimeBasedCacheTagGenerator implements TimeBasedCacheTagGeneratorInterface 
   const DATE_FORMAT_GRANULARITY_YEAR = 'Y';
 
   /**
+   * UTC timezone object.
+   *
+   * @var \DateTimeZone
+   */
+  protected $timezoneUtc;
+
+  /**
+   * Constructs a TimeBasedCacheTagGenerator object.
+   */
+  public function __construct() {
+    $this->timezoneUtc = new \DateTimeZone('UTC');
+  }
+
+  /**
    * {@inheritdoc}
    */
   public function generateTags(\DateTime $datetime): array {
+    // Generate tags in UTC timezone.
+    $datetime->setTimezone($this->timezoneUtc);
     return [
       static::TAG_PREFIX . $datetime->format(self::DATE_FORMAT_GRANULARITY_YEAR),
       static::TAG_PREFIX . $datetime->format(self::DATE_FORMAT_GRANULARITY_MONTH),
@@ -52,6 +68,8 @@ class TimeBasedCacheTagGenerator implements TimeBasedCacheTagGeneratorInterface 
    * {@inheritdoc}
    */
   public function generateTagsUntilMidnight(\DateTime $datetime): array {
+    // Generate tags in UTC timezone.
+    $datetime->setTimezone($this->timezoneUtc);
     $midnight = Carbon::instance($datetime)->floorDay();
     return $this->generateTags($midnight);
   }
@@ -60,6 +78,8 @@ class TimeBasedCacheTagGenerator implements TimeBasedCacheTagGeneratorInterface 
    * {@inheritdoc}
    */
   public function generateInvalidatingTags(\DateTime $datetime): array {
+    // Generate tags in UTC timezone.
+    $datetime->setTimezone($this->timezoneUtc);
     $tags = [];
 
     // Generate year granularity invalidation tags, up to 5 years in the back.
