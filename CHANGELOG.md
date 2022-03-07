@@ -1,14 +1,23 @@
 # Changelog
 
+## [1.2.1](https://github.com/openeuropa/oe_time_caching/tree/1.2.1) (2022-03-07)
+
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.2.0...1.2.1)
+
+**Merged pull requests:**
+
+- EWPP-1948: Event status sets the wrong cache tags. [\#12](https://github.com/openeuropa/oe_time_caching/pull/12) ([yenyasinn](https://github.com/yenyasinn))
+
 ## [1.2.0](https://github.com/openeuropa/oe_time_caching/tree/1.2.0) (2022-02-10)
 
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.1.0...1.2.0)
 
 **Merged pull requests:**
 
+- EWPP-0000: Prepare for 1.2.0 release. [\#11](https://github.com/openeuropa/oe_time_caching/pull/11) ([hernani](https://github.com/hernani))
 - EWPP-1915: Update to PHP8 [\#10](https://github.com/openeuropa/oe_time_caching/pull/10) ([yenyasinn](https://github.com/yenyasinn))
 
-## [1.1.0](https://github.com/openeuropa/oe_time_caching/tree/1.1.0) (2021-08-12)
+## [1.1.0](https://github.com/openeuropa/oe_time_caching/tree/1.1.0) (2021-08-16)
 
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.0.0...1.1.0)
 
@@ -25,6 +34,8 @@
 - EWPP-516: Update docker images. [\#3](https://github.com/openeuropa/oe_time_caching/pull/3) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [1.0.0](https://github.com/openeuropa/oe_time_caching/tree/1.0.0) (2020-05-18)
+
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/6dce62b1b289988a6f0d57db64e6ffcdf11c938f...1.0.0)
 
 **Merged pull requests:**
 
