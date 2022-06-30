@@ -6,14 +6,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "drupal/core": "^9.2",
+        "drupal/core": "^9.3",
         "php": ">=7.4",
         "nesbot/carbon": "^2.29"
     },
     "require-dev": {
         "composer/installers": "~1.5",
-        "drupal/core-composer-scaffold": "^9.2",
-        "drupal/core-dev": "^9.2",
+        "drupal/core-composer-scaffold": "^9.3",
+        "drupal/core-dev": "^9.3",
         "drupal/config_devel": "^1.8",
         "drupal/drupal-extension": "~4.0",
         "drush/drush": "~10.3",
