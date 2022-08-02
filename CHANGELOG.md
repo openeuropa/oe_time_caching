@@ -1,11 +1,20 @@
 # Changelog
 
+## [1.3.0](https://github.com/openeuropa/oe_time_caching/tree/1.3.0) (2022-07-29)
+
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.2.1...1.3.0)
+
+**Merged pull requests:**
+
+- EWPP-2358: Drupal 9.4 support. [\#15](https://github.com/openeuropa/oe_time_caching/pull/15) ([yenyasinn](https://github.com/yenyasinn))
+
 ## [1.2.1](https://github.com/openeuropa/oe_time_caching/tree/1.2.1) (2022-03-07)
 
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.2.0...1.2.1)
 
 **Merged pull requests:**
 
+- Prepare release 1.2.1. [\#13](https://github.com/openeuropa/oe_time_caching/pull/13) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-1948: Event status sets the wrong cache tags. [\#12](https://github.com/openeuropa/oe_time_caching/pull/12) ([yenyasinn](https://github.com/yenyasinn))
 
 ## [1.2.0](https://github.com/openeuropa/oe_time_caching/tree/1.2.0) (2022-02-10)
