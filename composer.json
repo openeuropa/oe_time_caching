@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "require": {
         "drupal/core": "^9.3",
-        "php": ">=7.4",
+        "php": ">=8.0",
         "nesbot/carbon": "^2.29"
     },
     "require-dev": {
