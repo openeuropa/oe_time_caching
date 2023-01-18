@@ -6,19 +6,18 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "drupal/core": "^9.3",
+        "drupal/core": "^9.4",
         "php": ">=8.0",
         "nesbot/carbon": "^2.29"
     },
     "require-dev": {
         "composer/installers": "~1.5",
-        "drupal/core-composer-scaffold": "^9.3",
-        "drupal/core-dev": "^9.3",
+        "drupal/core-composer-scaffold": "^9.4",
         "drupal/config_devel": "^1.8",
         "drupal/drupal-extension": "~4.0",
         "drush/drush": "~10.3",
-        "openeuropa/code-review": "~2.0",
-        "openeuropa/task-runner-drupal-project-symlink": "^1.0.0-beta5",
+        "openeuropa/code-review": "2.x-dev",
+        "openeuropa/task-runner-drupal-project-symlink": "1.x-dev",
         "phpspec/prophecy-phpunit": "^2"
     },
     "scripts": {

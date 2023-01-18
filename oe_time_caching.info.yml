@@ -3,4 +3,4 @@ description: 'OpenEuropa Time Caching provides time-based cache tags and invalid
 package: OpenEuropa
 
 type: module
-core_version_requirement: ^9.3
+core_version_requirement: ^9.4
