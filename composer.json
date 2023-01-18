@@ -8,17 +8,19 @@
     "require": {
         "drupal/core": "^9.4",
         "php": ">=8.0",
-        "nesbot/carbon": "^2.29"
+        "nesbot/carbon": "^2.55"
     },
     "require-dev": {
         "composer/installers": "~1.5",
-        "drupal/core-composer-scaffold": "^9.4",
         "drupal/config_devel": "^1.8",
-        "drupal/drupal-extension": "~4.0",
-        "drush/drush": "~10.3",
+        "drupal/core-composer-scaffold": "^9.4",
+        "drupal/core-utility": "^9.4",
+        "drupal/drupal-extension": "dev-master as 4.0",
+        "drush/drush": "~11.1",
         "openeuropa/code-review": "2.x-dev",
         "openeuropa/task-runner-drupal-project-symlink": "1.x-dev",
-        "phpspec/prophecy-phpunit": "^2"
+        "phpspec/prophecy-phpunit": "^2",
+        "symfony/phpunit-bridge": "^6.0"
     },
     "scripts": {
         "post-install-cmd": "./vendor/bin/run drupal:site-setup",
@@ -53,7 +55,11 @@
             "locations": {
                 "web-root": "./build"
             }
-        }
+        },
+        "_readme": [
+            "Use master branch of drupal/drupal-extension to replace fabpot/goutte with behat/mink-browserkit-driver.",
+            "Explicit minimum version requirement of symfony/phpunit-bridge to replace drupal/core-dev testing classes and traits."
+        ]
     },
     "config": {
         "sort-packages": true,
