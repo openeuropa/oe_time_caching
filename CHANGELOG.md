@@ -1,11 +1,18 @@
 # Changelog
 
-## [1.3.0](https://github.com/openeuropa/oe_time_caching/tree/1.3.0) (2022-07-29)
+## [1.4.0](https://github.com/openeuropa/oe_time_caching/tree/1.4.0) (2023-03-03)
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.3.0...1.4.0)
 
+**Merged pull requests:**
+
+- EWPP-2969: Update to PHP8.1. [\#17](https://github.com/openeuropa/oe_time_caching/pull/17) ([22Alexandra](https://github.com/22Alexandra))
+
+## [1.3.0](https://github.com/openeuropa/oe_time_caching/tree/1.3.0) (2022-08-02)
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.2.1...1.3.0)
 
 **Merged pull requests:**
 
+- Prepare release 1.3.0. [\#16](https://github.com/openeuropa/oe_time_caching/pull/16) ([imanoleguskiza](https://github.com/imanoleguskiza))
 - EWPP-2358: Drupal 9.4 support. [\#15](https://github.com/openeuropa/oe_time_caching/pull/15) ([yenyasinn](https://github.com/yenyasinn))
 
 ## [1.2.1](https://github.com/openeuropa/oe_time_caching/tree/1.2.1) (2022-03-07)
