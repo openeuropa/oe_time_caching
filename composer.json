@@ -15,7 +15,6 @@
         "drupal/config_devel": "^1.8",
         "drupal/core-composer-scaffold": "^9.4 || ^10",
         "drupal/core-utility": "^9.4",
-        "drupal/drupal-extension": "dev-master as 4.0",
         "drush/drush": "~11.1",
         "openeuropa/code-review": "2.x-dev",
         "openeuropa/task-runner-drupal-project-symlink": "1.x-dev",
@@ -57,7 +56,6 @@
             }
         },
         "_readme": [
-            "Use master branch of drupal/drupal-extension to replace fabpot/goutte with behat/mink-browserkit-driver.",
             "Explicit minimum version requirement of symfony/phpunit-bridge to replace drupal/core-dev testing classes and traits."
         ]
     },

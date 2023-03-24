@@ -1,7 +1,6 @@
 .DS_Store
 .idea
 .editorconfig
-behat.yml
 build
 composer.lock
 docker-compose.*.yml

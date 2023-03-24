@@ -107,12 +107,6 @@ To run the phpunit tests:
 docker-compose exec web ./vendor/bin/phpunit
 ```
 
-To run the behat tests:
-
-```bash
-docker-compose exec web ./vendor/bin/behat
-```
-
 ## Contributing
 
 Please read [the full documentation](https://github.com/openeuropa/openeuropa) for details on our code of conduct, and the process for submitting pull requests to us.
