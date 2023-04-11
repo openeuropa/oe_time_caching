@@ -1,10 +1,18 @@
-# Changelog
+# Change Log
 
-## [1.4.0](https://github.com/openeuropa/oe_time_caching/tree/1.4.0) (2023-03-03)
+## [1.5.0](https://github.com/openeuropa/oe_time_caching/tree/1.5.0) (2023-04-06)
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.4.0...1.5.0)
+
+**Merged pull requests:**
+
+- EWPP-3000: Drupal 10 compatibility. [\#19](https://github.com/openeuropa/oe_time_caching/pull/19) ([brummbar](https://github.com/brummbar))
+
+## [1.4.0](https://github.com/openeuropa/oe_time_caching/tree/1.4.0) (2023-03-06)
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.3.0...1.4.0)
 
 **Merged pull requests:**
 
+- Prepare changelog for release 1.4.0. [\#18](https://github.com/openeuropa/oe_time_caching/pull/18) ([brummbar](https://github.com/brummbar))
 - EWPP-2969: Update to PHP8.1. [\#17](https://github.com/openeuropa/oe_time_caching/pull/17) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [1.3.0](https://github.com/openeuropa/oe_time_caching/tree/1.3.0) (2022-08-02)
