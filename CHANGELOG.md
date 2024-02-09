@@ -1,13 +1,24 @@
-# Change Log
+# Changelog
 
-## [1.5.0](https://github.com/openeuropa/oe_time_caching/tree/1.5.0) (2023-04-06)
+## [1.6.0](https://github.com/openeuropa/oe_time_caching/tree/1.6.0) (2024-02-09)
+
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.5.0...1.6.0)
+
+**Merged pull requests:**
+
+- EWPP-3972: Run tests on core 10.2.x and PHP 8.2. [\#21](https://github.com/openeuropa/oe_time_caching/pull/21) ([brummbar](https://github.com/brummbar))
+
+## [1.5.0](https://github.com/openeuropa/oe_time_caching/tree/1.5.0) (2023-04-11)
+
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.4.0...1.5.0)
 
 **Merged pull requests:**
 
+- Prepare changelog for release 1.5.0. [\#20](https://github.com/openeuropa/oe_time_caching/pull/20) ([brummbar](https://github.com/brummbar))
 - EWPP-3000: Drupal 10 compatibility. [\#19](https://github.com/openeuropa/oe_time_caching/pull/19) ([brummbar](https://github.com/brummbar))
 
 ## [1.4.0](https://github.com/openeuropa/oe_time_caching/tree/1.4.0) (2023-03-06)
+
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.3.0...1.4.0)
 
 **Merged pull requests:**
@@ -16,6 +27,7 @@
 - EWPP-2969: Update to PHP8.1. [\#17](https://github.com/openeuropa/oe_time_caching/pull/17) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [1.3.0](https://github.com/openeuropa/oe_time_caching/tree/1.3.0) (2022-08-02)
+
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.2.1...1.3.0)
 
 **Merged pull requests:**
