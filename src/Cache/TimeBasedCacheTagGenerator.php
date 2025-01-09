@@ -89,7 +89,7 @@ class TimeBasedCacheTagGenerator implements TimeBasedCacheTagGeneratorInterface 
     $period->excludeEndDate();
     foreach ($period as $item) {
       $tags[] = static::TAG_PREFIX . $item->format(self::DATE_FORMAT_GRANULARITY_YEAR);
-    };
+    }
 
     // Generate month granularity invalidation tags, for the current year.
     $start = Carbon::instance($datetime)->floorYear();
@@ -98,7 +98,7 @@ class TimeBasedCacheTagGenerator implements TimeBasedCacheTagGeneratorInterface 
     $period->excludeEndDate();
     foreach ($period as $item) {
       $tags[] = static::TAG_PREFIX . $item->format(self::DATE_FORMAT_GRANULARITY_MONTH);
-    };
+    }
 
     // Generate day granularity invalidation tags, for the current year.
     $start = Carbon::instance($datetime)->floorMonth();
@@ -107,7 +107,7 @@ class TimeBasedCacheTagGenerator implements TimeBasedCacheTagGeneratorInterface 
     $period->excludeEndDate();
     foreach ($period as $item) {
       $tags[] = static::TAG_PREFIX . $item->format(self::DATE_FORMAT_GRANULARITY_DAY);
-    };
+    }
 
     // Generate hour granularity invalidation tags, for the current day.
     $start = Carbon::instance($datetime)->floorDay();
@@ -115,7 +115,7 @@ class TimeBasedCacheTagGenerator implements TimeBasedCacheTagGeneratorInterface 
     $period->excludeEndDate();
     foreach ($period as $item) {
       $tags[] = static::TAG_PREFIX . $item->format(self::DATE_FORMAT_GRANULARITY_HOUR);
-    };
+    }
 
     return $tags;
   }
