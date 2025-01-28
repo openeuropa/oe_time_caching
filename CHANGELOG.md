@@ -1,15 +1,22 @@
-# Changelog
+# Change Log
+
+## [1.7.0](https://github.com/openeuropa/oe_time_caching/tree/1.7.0) (2025-01-28)
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.6.0...1.7.0)
+
+**Merged pull requests:**
+
+- EWPP-4991: Use PHP8.3 version. [\#24](https://github.com/openeuropa/oe_time_caching/pull/24) ([nagyad](https://github.com/nagyad))
+- OEL-3037: Update to Drupal 10.3 [\#23](https://github.com/openeuropa/oe_time_caching/pull/23) ([AaronGilMartinez](https://github.com/AaronGilMartinez))
 
 ## [1.6.0](https://github.com/openeuropa/oe_time_caching/tree/1.6.0) (2024-02-09)
-
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.5.0...1.6.0)
 
 **Merged pull requests:**
 
+- Release-1.6.0: Update changelog. [\#22](https://github.com/openeuropa/oe_time_caching/pull/22) ([nagyad](https://github.com/nagyad))
 - EWPP-3972: Run tests on core 10.2.x and PHP 8.2. [\#21](https://github.com/openeuropa/oe_time_caching/pull/21) ([brummbar](https://github.com/brummbar))
 
 ## [1.5.0](https://github.com/openeuropa/oe_time_caching/tree/1.5.0) (2023-04-11)
-
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.4.0...1.5.0)
 
 **Merged pull requests:**
@@ -18,7 +25,6 @@
 - EWPP-3000: Drupal 10 compatibility. [\#19](https://github.com/openeuropa/oe_time_caching/pull/19) ([brummbar](https://github.com/brummbar))
 
 ## [1.4.0](https://github.com/openeuropa/oe_time_caching/tree/1.4.0) (2023-03-06)
-
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.3.0...1.4.0)
 
 **Merged pull requests:**
@@ -27,7 +33,6 @@
 - EWPP-2969: Update to PHP8.1. [\#17](https://github.com/openeuropa/oe_time_caching/pull/17) ([22Alexandra](https://github.com/22Alexandra))
 
 ## [1.3.0](https://github.com/openeuropa/oe_time_caching/tree/1.3.0) (2022-08-02)
-
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.2.1...1.3.0)
 
 **Merged pull requests:**
@@ -36,7 +41,6 @@
 - EWPP-2358: Drupal 9.4 support. [\#15](https://github.com/openeuropa/oe_time_caching/pull/15) ([yenyasinn](https://github.com/yenyasinn))
 
 ## [1.2.1](https://github.com/openeuropa/oe_time_caching/tree/1.2.1) (2022-03-07)
-
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.2.0...1.2.1)
 
 **Merged pull requests:**
@@ -45,7 +49,6 @@
 - EWPP-1948: Event status sets the wrong cache tags. [\#12](https://github.com/openeuropa/oe_time_caching/pull/12) ([yenyasinn](https://github.com/yenyasinn))
 
 ## [1.2.0](https://github.com/openeuropa/oe_time_caching/tree/1.2.0) (2022-02-10)
-
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.1.0...1.2.0)
 
 **Merged pull requests:**
@@ -54,7 +57,6 @@
 - EWPP-1915: Update to PHP8 [\#10](https://github.com/openeuropa/oe_time_caching/pull/10) ([yenyasinn](https://github.com/yenyasinn))
 
 ## [1.1.0](https://github.com/openeuropa/oe_time_caching/tree/1.1.0) (2021-08-16)
-
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.0.0...1.1.0)
 
 **Closed issues:**
