@@ -12,7 +12,7 @@ use Drupal\Core\Cache\Cache;
 /**
  * Implements hook_cron().
  */
-function oe_time_caching_cron() {
+function oe_time_caching_cron(): void {
   /** @var \Drupal\Component\Datetime\TimeInterface $time */
   $time = \Drupal::service('datetime.time');
   /** @var \Drupal\oe_time_caching\Cache\TimeBasedCacheTagGeneratorInterface $generator */
