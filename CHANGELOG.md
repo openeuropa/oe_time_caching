@@ -1,10 +1,18 @@
 # Change Log
 
+## [1.8.0](https://github.com/openeuropa/oe_time_caching/tree/1.8.0) (2025-03-14)
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.7.0...1.8.0)
+
+**Merged pull requests:**
+
+- EWPP-4633: Update to Drupal 11. [\#26](https://github.com/openeuropa/oe_time_caching/pull/26) ([gorsky87](https://github.com/gorsky87))
+
 ## [1.7.0](https://github.com/openeuropa/oe_time_caching/tree/1.7.0) (2025-01-28)
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.6.0...1.7.0)
 
 **Merged pull requests:**
 
+- Release-1.7.0: Update changelog. [\#25](https://github.com/openeuropa/oe_time_caching/pull/25) ([nagyad](https://github.com/nagyad))
 - EWPP-4991: Use PHP8.3 version. [\#24](https://github.com/openeuropa/oe_time_caching/pull/24) ([nagyad](https://github.com/nagyad))
 - OEL-3037: Update to Drupal 10.3 [\#23](https://github.com/openeuropa/oe_time_caching/pull/23) ([AaronGilMartinez](https://github.com/AaronGilMartinez))
 
