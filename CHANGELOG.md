@@ -1,10 +1,22 @@
-# Change Log
+# Changelog
 
-## [1.8.0](https://github.com/openeuropa/oe_time_caching/tree/1.8.0) (2025-03-14)
+## [1.9.0](https://github.com/openeuropa/oe_time_caching/tree/1.9.0) (2025-09-08)
+
+[Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.8.0...1.9.0)
+
+**Merged pull requests:**
+
+- EWPP-5980: Use github actions for CI. [\#31](https://github.com/openeuropa/oe_time_caching/pull/31) ([hernani](https://github.com/hernani))
+- EWPP-5768: Update to Drupal 10.5. [\#30](https://github.com/openeuropa/oe_time_caching/pull/30) ([intelektron](https://github.com/intelektron))
+- EWPP-5699: Update docker PHP image. [\#29](https://github.com/openeuropa/oe_time_caching/pull/29) ([nagyad](https://github.com/nagyad))
+
+## [1.8.0](https://github.com/openeuropa/oe_time_caching/tree/1.8.0) (2025-03-17)
+
 [Full Changelog](https://github.com/openeuropa/oe_time_caching/compare/1.7.0...1.8.0)
 
 **Merged pull requests:**
 
+- Release-1.8.0: Update changelog. [\#27](https://github.com/openeuropa/oe_time_caching/pull/27) ([nagyad](https://github.com/nagyad))
 - EWPP-4633: Update to Drupal 11. [\#26](https://github.com/openeuropa/oe_time_caching/pull/26) ([gorsky87](https://github.com/gorsky87))
 
 ## [1.7.0](https://github.com/openeuropa/oe_time_caching/tree/1.7.0) (2025-01-28)
