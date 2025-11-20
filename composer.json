@@ -11,7 +11,7 @@
         "nesbot/carbon": "^2.55"
     },
     "require-dev": {
-        "composer/installers": "~1.5",
+        "composer/installers": "^2.3",
         "drupal/core-composer-scaffold": "^10 || ^11",
         "drupal/core-dev": "^10 || ^11",
         "drush/drush": "^12 || ^13",
@@ -27,14 +27,6 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/openeuropa/DrupalDriver.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/openeuropa/code-review-drupal.git"
         }
     ],
     "autoload": {
